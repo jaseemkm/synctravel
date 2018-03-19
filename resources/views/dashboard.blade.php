@@ -1,0 +1,314 @@
+<html lang="en">
+
+<head>
+	<title>The Travel - Tour Travel</title>
+	<!--== META TAGS ==-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- FAV ICON -->
+	<link rel="shortcut icon" href="images/fav.ico">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:400,500,700" rel="stylesheet">
+	<!-- FONT-AWESOME ICON CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--== ALL CSS FILES ==-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/mob.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!--====== MOBILE MENU ==========-->
+	<section class="mob-top">
+		<div class="mob-menu">
+			<div class="mob-head-left"> <img src="images/logo.png" alt=""> </div>
+			<div class="mob-head-right"> <a href="#"><i class="fa fa-bars mob-menu-icon" aria-hidden="true"></i></a> <a href="#" class="btn-close-menu"><i class="fa fa-times" aria-hidden="true"></i></a>
+				<div class="mob-menu-slide">
+					<h4>My Profile</h4>
+					<ul class='top-menu'>
+						<li><a href="db-my-profile.html"><i class="fa fa-sign-in" aria-hidden="true"></i> My Profile</a>
+						</li>
+						<li><a href="register.html"><i class="fa fa-address-book-o" aria-hidden="true"></i> Register with us</a>
+						</li>
+						<li><a href="dashboard.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> My Bookings</a>
+						</li>
+						<li><a href="db-travel-booking.html"><i class="fa fa-umbrella" aria-hidden="true"></i> Tour Packages</a>
+						</li>
+						<li><a href="db-hotel-booking.html"><i class="fa fa-bed" aria-hidden="true"></i> Hotel Bookings</a>
+						</li>
+						<li><a href="db-refund.html"><i class="fa fa-ban" aria-hidden="true"></i> Cancel Bookings</a>
+						</li>
+						<li><a href="db-all-payment.html"><i class="fa fa-print" aria-hidden="true"></i> Prient E-Tickets</a>
+						</li>
+						<li><a href="db-payment.html" class="ho-dr-con-last"><i class="fa fa-align-justify" aria-hidden="true"></i> Make Payment</a>
+						</li>
+					</ul>
+					<h4>Tour Packages</h4>
+					<ul class='top-menu'>
+						<li><a href="family-package.html">Family Package</a>
+						</li>
+						<li><a href="honeymoon-package.html">Honeymoon Package</a>
+						</li>
+						<li><a href="group-package.html">Group Package</a>
+						</li>
+						<li><a href="weekend-package.html">WeekEnd Package</a>
+						</li>
+						<li><a href="regular-package.html">Regular Package</a>
+						</li>
+					</ul>
+					<h4>Hotels</h4>
+					<ul class='top-menu'>
+						<li><a href="hotels-list.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Hotel Booking</a>
+						</li>
+						<li><a href="hotels-list.html"><i class="fa fa-address-book-o" aria-hidden="true"></i> All Hotels</a>
+						</li>
+						<li><a href="hotels-list.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> Find Hotel</a>
+						</li>
+					</ul>
+					<h4>Seight Seeing</h4>
+					<ul class='top-menu'>
+						<li><a href="places.html"><i class="fa fa-sign-in" aria-hidden="true"></i> 1.1 Seight Seeing</a>
+						</li>
+						<li><a href="places-1.html"><i class="fa fa-address-book-o" aria-hidden="true"></i> 1.2 Seight Seeing</a>
+						</li>
+						<li><a href="places-2.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> 1.3 Seight Seeing</a>
+						</li>
+					</ul>
+					<h4>All Pages</h4>
+					<ul class='top-menu'>
+						<li><a href="about.html">About Us</a>
+						</li>
+						<li><a href="testimonials.html">Testimonials</a>
+						</li>
+						<li><a href="events.html">Events</a>
+						</li>
+						<li><a href="blog.html">Blog</a>
+						</li>
+						<li><a href="tips.html">Tips Before Travel</a>
+						</li>
+						<li><a href="price-list.html">Price List</a>
+						</li>
+						<li><a href="discount.html">Discount</a>
+						</li>
+						<li><a href="faq.html">FAQ</a>
+						</li>
+						<li><a href="sitemap.html">Site map</a>
+						</li>
+						<li><a href="404.html">404 Page</a>
+						</li>
+						<li><a href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== END MOBILE MENU ==========-->
+	<!--====== TOP HEADER ==========-->
+	<section>
+		<div class="rows head" data-spy="affix" data-offset-top="120">
+			<div class="container">
+				<div>
+					<!--====== BRANDING LOGO ==========-->
+					<div class="col-md-4 col-sm-12 col-xs-12 head_left">
+						<a href="/"><img src="images/logo.png" alt="" /> </a>
+					</div>
+					<!--====== HELP LINE & EMAIL ID ==========-->
+					<div class="col-md-8 col-sm-12 col-xs-12 head_right head_right_all">
+						<ul>
+							<li><a href="#">Help Line: +91 9633638812</a> </li>
+							<li><a href="#">Email: mail@synctravel.in</a> </li>
+							<li>
+								<!--<div class="dropdown">
+                                    <button class="dropbtn">My Account</button>
+                                    <div class="dropdown-content">
+                                        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+                                        <a href="#"><i class="fa fa-address-book-o" aria-hidden="true"></i> Register with us</a>
+                                        <a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i> My Bookings</a>
+                                        <a href="#"><i class="fa fa-umbrella" aria-hidden="true"></i> Tour Packages</a>
+                                        <a href="#"><i class="fa fa-bed" aria-hidden="true"></i> Hotel Bookings</a>
+                                        <a href="#"><i class="fa fa-ban" aria-hidden="true"></i> Cancel Bookings</a>
+                                        <a href="#"><i class="fa fa-print" aria-hidden="true"></i> Prient E-Tickets</a>
+                                        <a href="#" class="ho-dr-con-last"><i class="fa fa-align-justify" aria-hidden="true"></i> Custom Tour Plan</a>
+                                    </div>
+								</div>	--><a class='dropdown-button waves-effect waves-light profile-btn'  data-activates='myacc'><i class="fa fa-user" aria-hidden="true"></i><a href="{{ route('logout') }}"
+										onclick="event.preventDefault();
+														 document.getElementById('logout-form').submit();"> logout</a>
+								<!-- Dropdown Structure -->
+							</li>
+							<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+									{{ csrf_field() }}
+							</form>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== NAVIGATION MENU ==========-->
+
+	<!--DASHBOARD-->
+	<section>
+		<div class="db">
+			<!--LEFT SECTION-->
+			<div class="db-l">
+
+				<div class="db-l-2">
+					<ul>
+						<li>
+							<a href="/home"><img src="images/icon/dbl1.png" alt="" /> All Bookings</a>
+						</li>
+						<li>
+							<a href="/travel"><img src="images/icon/dbl2.png" alt="" /> Travel Bookings</a>
+						</li>
+
+						<li>
+							<a href="/event"><img src="images/icon/dbl4.png" alt="" /> Event Bookings</a>
+						</li>
+						<li>
+							<a href="/addpackage"><img src="images/icon/dbl4.png" alt="" /> Add Package</a>
+						</li>
+						<li>
+							<a href="/editpackage"><img src="images/icon/dbl4.png" alt="" /> Edit Package</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<!--CENTER SECTION-->
+			<div class="db-2">
+				<div class="db-2-com db-2-main">
+					<h4>Manage Booking</h4>
+					<div class="db-2-main-com">
+						<div class="db-2-main-1">
+							<div class="db-2-main-2"> <img src="images/icon/db2.png" alt="" /><span>Travel Bookings</span>
+								<ul>
+									<li><a href="db-travel-details.html">Honeymoon Package</a>
+									</li>
+									<li><a href="db-payment.html">Payment Status <span class="db-done">Done</span></a>
+									</li>
+									<li><a href="db-travel-details.html">Remaining Days - 14</a>
+									</li>
+									<li><a href="db-travel-details.html">Travel Date - 16 may 2018</a>
+									</li>
+									<li><a href="db-refund.html">Cancel this booking</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="db-2-main-1">
+							<div class="db-2-main-2"> <img src="images/icon/db1.png" alt="" /><span>Event Bookings</span>
+								<ul>
+									<li><a href="db-event-details.html">Eiffel Tower Party</a>
+									</li>
+									<li><a href="db-payment.html">Payment Status <span class="db-not-done">not-Done</span></a>
+									</li>
+									<li><a href="db-event-details.html">Remaining Days - 14</a>
+									</li>
+									<li><a href="db-event-details.html">Travel Date - 16 may 2018</a>
+									</li>
+									<li><a href="db-refund.html">Cancel this booking</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					</div>
+	</section>
+	<!--END DASHBOARD-->
+
+		<!--====== FOOTER 2 ==========-->
+	<section>
+		<div class="rows">
+			<div class="footer">
+				<div class="container">
+					<div class="foot-sec2">
+						<div>
+							<div class="row">
+								<div class="col-sm-3 foot-spec foot-com">
+									<h4><span>Holiday</span> Tour & Travels</h4>
+									<p>World's leading tour and travels Booking website,Over 30,000 packages worldwide.</p>
+								</div>
+								<div class="col-sm-3 foot-spec foot-com">
+									<h4><span>Address</span> & Contact Info</h4>
+									<p>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A. Landmark : Next To Airport</p>
+									<p> <span class="strong">Phone: </span> <span class="highlighted">+101-1231-1231</span> </p>
+								</div>
+								<div class="col-sm-3 col-md-3 foot-spec foot-com">
+									<h4><span>SUPPORT</span> & HELP</h4>
+									<ul class="two-columns">
+										<li> <a href="#">About Us</a> </li>
+										<li> <a href="#">FAQ</a> </li>
+										<li> <a href="#">Feedbacks</a> </li>
+										<li> <a href="#">Blog </a> </li>
+										<li> <a href="#">Use Cases</a> </li>
+										<li> <a href="#">Advertise us</a> </li>
+										<li> <a href="#">Discount</a> </li>
+										<li> <a href="#">Vacations</a> </li>
+										<li> <a href="#">Branding Offers </a> </li>
+										<li> <a href="#">Contact Us</a> </li>
+									</ul>
+								</div>
+								<div class="col-sm-3 foot-social foot-spec foot-com">
+									<h4><span>Follow</span> with us</h4>
+									<p>Join the thousands of other There are many variations of passages of Lorem Ipsum available</p>
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FOOTER - COPYRIGHT ==========-->
+	<section>
+		<div class="rows copy">
+			<div class="container">
+				<p>Copyrights © 2017 Company Name. All Rights Reserved</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="icon-float">
+			<ul>
+				<li><a href="#" class="sh">1k <br> Share</a> </li>
+				<li><a href="#" class="fb1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="gp1"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="tw1"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="li1"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="wa1"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+			</ul>
+		</div>
+	</section>
+	<!--========= Scripts ===========-->
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
