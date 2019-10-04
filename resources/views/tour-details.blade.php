@@ -51,7 +51,7 @@
 					<!--====== HELP LINE & EMAIL ID ==========-->
 					<div class="col-md-8 col-sm-12 col-xs-12 head_right head_right_all">
 						<ul>
-							<li><a href="#">Help Line: +91 9633638812</a> </li>
+							<li><a href="#">Help Line: +91 12345678</a> </li>
 							<li><a href="#">Email: mail@synctravel.in</a> </li>
 							<li>
 								<!--<div class="dropdown">
