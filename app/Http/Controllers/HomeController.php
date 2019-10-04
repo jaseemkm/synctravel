@@ -23,10 +23,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('dashboard');
-    }
+    
     public function addpackage()
     {
         return view('addpackage');
@@ -40,8 +37,15 @@ class HomeController extends Controller
     {
         DB::table('tour_details')->where('id',$id)->delete();
         return redirect('/editpackage');
+    }
 
-
+    public function index()
+    {
+        return view('dashboard');
+    }
+    public function indexhome()
+    {
+        return 'dashboard';
     }
     public function updatepackage($id)
     {
